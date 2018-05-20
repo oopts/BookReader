@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/item_change"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/dialog_conrer"
+    android:layout_height="160dp">
+            <TextView
+                android:id="@+id/book_name"
+                android:lines="3"
+                android:ellipsize="end"
+                android:text=""
+                android:gravity="center"
+                android:paddingBottom="0dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                />
+            <TextView
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/book_progress"
+                android:paddingBottom="8dp"
+                android:paddingRight="8dp"
+                android:layout_above="@+id/book_type"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/book_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+</RelativeLayout>

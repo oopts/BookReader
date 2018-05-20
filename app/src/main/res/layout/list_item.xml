@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:paddingLeft="8dp"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/name"
+            android:text="📂书名"
+            android:textSize="20dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    <TextView
+        android:id="@+id/path"
+        android:text="路径"
+        android:textSize="8dp"
+        android:singleLine="true"
+        android:ellipsize="start"
+        android:textColor="#949090"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/size"
+        android:textSize="14dp"
+        android:text="24K"
+        android:gravity="center"
+        android:backgroundTint="@color/statusbar"
+        android:layout_width="50dp"
+        android:layout_height="match_parent" />
+    <Button
+        android:layout_gravity="center"
+        android:backgroundTint="@color/statusbar"
+        android:id="@+id/add_book"
+        android:text="加入书架"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="hwtxtreader_bottom_menu_textclor">#5e5d5d</color>
+    <!--<color name="hwtxtreader_styleclor1">#d0cdc4</color>-->
+    <!--<color name="hwtxtreader_styleclor2">#ccebcc</color>-->
+    <!--<color name="hwtxtreader_styleclor3">#d4c7a5</color>-->
+    <!--<color name="hwtxtreader_styleclor4">#393330</color>-->
+    <!--<color name="hwtxtreader_styleclor5">#00141f</color>-->
+    <color name="hwtxtreader_styleclor1">#f7f7ef</color>
+    <color name="hwtxtreader_styleclor2">#c4d1ba</color>
+    <color name="hwtxtreader_styleclor3">#d0cb95</color>
+    <color name="hwtxtreader_styleclor4">#c1c1be</color>
+    <color name="hwtxtreader_styleclor5">#000000</color>
+
+
+    <color name="dialog_txt">#837f7f</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="bottom_dialog_color">#e9e7e7</color>
+    <color name="statusbar">#fcfcfb</color>
+
+    <color name="other">#f21963</color>
+
+
+    <color name="triangle">#3F51B5</color>
+    <color name="circle">#FF4081</color>
+    <color name="rect">#00141f</color>
+    <color name="view_bg">#00000000</color>
+    <color name="shadow">#25808080</color>
+    <color name="dialog_bg">#f5f5f5</color>
+
+</resources>

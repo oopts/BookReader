@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".FileBrowserActivity">
+    <RelativeLayout
+        android:id="@+id/dongji"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        >
+        <TextView
+            android:layout_centerInParent="true"
+            android:textColor="@color/statusbar"
+            android:textSize="18dp"
+            android:text="从文件夹中添加"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:onClick="binggouu"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:drawableTop="@drawable/back_24dp"
+            android:backgroundTint="@android:color/transparent"
+            android:textColor="@color/statusbar"
+            android:textSize="15dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ListView
+        android:layout_below="@+id/dongji"
+        android:layout_above="@+id/linear_bottom"
+        android:id="@+id/file_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <LinearLayout
+        android:id="@+id/linear_bottom"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bc"
+            android:padding="5dp"
+            android:text="返回上一级"
+            android:textColor="@color/statusbar"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="over"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout>

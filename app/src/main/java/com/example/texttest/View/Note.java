@@ -1,0 +1,20 @@
+package com.example.texttest.View;
+
+public class Note {
+    public String Note;
+    public int StartParagraphIndex;
+    public int StartCharIndex;
+    public int EndParagraphIndex;
+    public int EndCharIndex;
+
+    @Override
+    public String toString() {
+        return "Note{" +
+                "Note='" + Note + '\'' +
+                ", StartParagraphIndex=" + StartParagraphIndex +
+                ", StartCharIndex=" + StartCharIndex +
+                ", EndParagraphIndex=" + EndParagraphIndex +
+                ", EndCharIndex=" + EndCharIndex +
+                '}';
+    }
+}
